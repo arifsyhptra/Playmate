@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OCR</title>
+</head>
+<body>
+    <h1>OCR Reader</h1>
+
+   <form action="/api/ocr" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <button type="submit">Upload</button>
+</form>
+
+
+    {% if text %}
+        <h2>Hasil:</h2>
+        <pre>{{ text }}</pre>
+    {% endif %}
+</body>
+</html>
