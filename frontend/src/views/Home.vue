@@ -26,7 +26,7 @@
           <div class="wallet-header">
             <div class="wallet-brand">
               <div class="wallet-icon">💳</div>
-              <span class="wallet-brand-text">PLAYMATE PAY</span>
+              <span class="wallet-brand-text">PM PAY</span>
             </div>
             <button class="menu-btn">⋮</button>
           </div>
